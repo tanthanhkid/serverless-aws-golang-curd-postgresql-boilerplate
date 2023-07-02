@@ -89,7 +89,7 @@ functions:
   #           parameter:
   #             paths:
   #               name: true 
-  post:
+  postinsert:
     handler: bin/postInsert
     package:
       include:
@@ -119,7 +119,7 @@ functions:
           path: delete
           method: post          
           private: true
-  postapi3:
+  postgetusers:
     handler: bin/postGetUsers
     package:
       include:
