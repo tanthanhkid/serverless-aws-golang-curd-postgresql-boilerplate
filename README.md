@@ -4,7 +4,7 @@ If you want to test any changes don't forget to run `make` inside the service di
 
 # API Specs
 - Viết 4 api, gọi vào database postgres
-  - craete user
+  - create user
   - update user
   - delete user by username
   - get user list by username
